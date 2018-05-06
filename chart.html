@@ -25,10 +25,8 @@ layout: null
         var twenty_fours_ago = now.getTime()/1000  - (60 * 60 * 24 * 1);
 
         var limit = 500;
+        var url = '//api.blinktrade.com/api/v1/' + currency + '/trades?limit=' + limit  + '&crypto_currency=' + crypto_currency + '&since=' + twenty_fours_ago;
 
-        var blinktrade_api = "{% if page.blinktrade_backend_api %}{{ page.blinktrade_backend_api}}{% else %}{{ site.blinktrade_backend_api}}{% endif %}";
-
-        var url = '//' + blinktrade_api +'/api/v1/' + currency + '/trades?limit=' + limit  + '&crypto_currency=' + crypto_currency + '&since=' + twenty_fours_ago;
         var prices = [],volume = [];
 
         function onFetchTrades(data) {
@@ -40,7 +38,7 @@ layout: null
 
           if (data.length == limit) {
             var since = data[limit-1].tid;
-            var url = '//' + blinktrade_api  + '/api/v1/' + currency + '/trades?limit=' + limit  + '&crypto_currency=' + crypto_currency + '&since=' + since;
+            var url = '//api.blinktrade.com/api/v1/' + currency + '/trades?limit=' + limit  + '&crypto_currency=' + crypto_currency + '&since=' + since;
 
             $.ajax({url: url,
                    type: 'GET',
