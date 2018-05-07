@@ -41,7 +41,7 @@
             .active {
               box-shadow: none;
               padding-right: 10px!important;
-              @extend a:hover;
+              @extend a, :hover;
             }
           }
         }

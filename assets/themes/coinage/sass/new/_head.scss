@@ -6,11 +6,12 @@
     z-index: 2222;
 
     .glyphicon {
-        height: 16px;
+        height: 13px;
     }
 
     .navbar {
         margin-bottom: 0;
+        background-color: #111;
     }
 
     .nav {
@@ -52,6 +53,7 @@
 
         border-bottom: 1px dotted #555;
         padding: 5px 0;
+        color: #fff;
 
         &:first-child {
             padding-top: 0;
