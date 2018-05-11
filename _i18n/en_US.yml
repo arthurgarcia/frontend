@@ -61,6 +61,11 @@ exchanges:
     description: Bitcambio allows you to securily buy and sell Bitcoins in Brazil. 
     keywords: bitcoin, comprar bitcoin, btc,bitcambio,cambio,vender bitcoin, bitcoin brasil
     lead: Buy and sell bitcoin in Brazil
+  tuk:
+    title: TukExchange - Buy or sell bitcoins in Brazil
+    description: Compre e venda bitcoins no Brasil de maneira segura através da TukExchange. Com a TukExchange você pode começar a comprar e vender bitcoins hoje. O processo de registro dura menos de um minuto.
+    keywords: Buy and sell bitcoin in Brazil, bitcoin exchange in Brazil, sell bitcoins in Brazil, buy bitcoins in Brazil, Bitcoin exchange in Brazil
+    lead: Buy or sell bitcoins in Brazil    
 views:
   landing:
     about:

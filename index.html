@@ -573,7 +573,6 @@ load_application:       True
                                   <i class="fa fa-upload"></i> {% t views.sidebar.services %}
                               </a>
                           </li>
-
                           <li role="presentation" id="menu-algotrading" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
                               <a href="#" data-switch-view="algotrading">
                                   <i class="glyphicon glyphicon-cog"></i> {% t views.sidebar.algotrading %}
@@ -589,6 +588,11 @@ load_application:       True
                                   <i class="glyphicon glyphicon-stats"></i> {% t views.toolbar.market %}
                               </a>
                           </li>
+                          <li role="presentation" id="menu-api" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
+                              <a href="#" data-switch-view="api">
+                                  <i class="glyphicon glyphicon-globe"></i> {% t views.sidebar.api %}
+                              </a>
+                          </li>                          
                           <li id="verification_menu_id">
                               <a href="verification" data-switch-view="verification">
                                   <i class="glyphicon glyphicon-check"></i> {% t views.sidebar.verification %}

@@ -61,6 +61,11 @@ exchanges:
     description: Casa de Câmbio de Bitcoin
     keywords: bitcoin, comprar bitcoin, btc,bitcambio,cambio,vender bitcoin, bitcoin brasil
     lead: Compra e Venda de Bitcoins Direta
+  tuk:
+    title: TukExchange - //Cumpărați și vindeți Bitcoin în Brazilia
+    description: Cumpărați și vindeți Bitcoin în Brazilia
+    keywords: Buy and sell bitcoin in Brazil, bitcoin exchange in Brazil, sell bitcoins in Brazil, buy bitcoins in Brazil, Bitcoin exchange in Brazil
+    lead: Cumpărați și vindeți Bitcoin în Brazilia
 views:
   landing:
     about:

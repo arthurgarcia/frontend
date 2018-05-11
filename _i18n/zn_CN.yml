@@ -62,6 +62,11 @@ exchanges:
     description: Casa de Câmbio de Bitcoin
     keywords: bitcoin, comprar bitcoin, btc,bitcambio,cambio,vender bitcoin, bitcoin brasil
     lead: Compra e Venda de Bitcoins Direta
+  tuk:
+    title: TukExchange - 巴西的第一家比特币交易平台
+    description: -巴西的第一家比特币交易平台
+    keywords: 在巴西购买和卖出比特币
+    lead: 购买和出售比特币在巴西
 views:
   landing:
     about:

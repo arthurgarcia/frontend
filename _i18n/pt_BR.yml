@@ -61,6 +61,11 @@ exchanges:
     description: Casa de Câmbio de Bitcoin
     keywords: bitcoin, comprar bitcoin, btc,bitcambio,cambio,vender bitcoin, bitcoin brasil
     lead: Compra e Venda de Bitcoins Direta
+  tuk:
+    title: TukExchange - Plataforma de negociação de cripto ativos
+    description: Compre e venda bitcoins no Brasil de maneira segura através da TukExchange. Com a TukExchange você pode começar a comprar e vender bitcoins hoje. O processo de registro dura menos de um minuto.
+    keywords: Compra e venda de bitcoins no Brasil, bolsa de bitcoins no Brasil, venda bitcoins no Brasil, compre bitcoins no Brasil, nordeste
+    lead: A primeira corretora de bitcoin e cripto ativos do nordeste.
 views:
   landing:
     about:
