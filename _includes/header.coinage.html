@@ -40,6 +40,7 @@
   {% if page.load_application %}
   <link href="{{ site.url }}{{ site.baseurl }}/assets/themes/default/css/style-new.css?v={{ site.deploy_version }}" rel="stylesheet">
   <link href="{{ site.url }}{{ site.baseurl }}/assets/css/flag-icon.css" rel="stylesheet">
+  <link href="{{ site.url }}{{ site.baseurl }}/assets/css/head-slide.css" rel="stylesheet">
 
   {% if site.custom_css %}
     <link href="{{ site.url }}{{ site.baseurl }}/assets/themes/coinage/sass/main.{{ site.custom_css }}.css?v={{ site.deploy_version }}" rel="stylesheet">
@@ -61,60 +62,185 @@
     <!-- .head-top -->
     <div class="head-top bitex-model" data-model-key="IsProTrader" style="display: none" data-model-action="show_element">
         <!-- .container-fluid -->
-        <div class="container">
-            <!-- .head-ticker -->
-            <ul class="head-ticker bitex-model" data-model-key="IsProTrader" style="display: none" data-model-action="show_element">
-                <li>
-                    <span class="head-ticker__title">
-                        <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.last %}&nbsp;
-                    </span>
-                    <span class="head-ticker__value">
-                      <span class="bitex-model"
-                            data-model-key-list="formatted_BLINK_{{site.symbol}}_LAST_PX"
-                            data-model-formula="formatted_BLINK_{{site.symbol}}_LAST_PX"
-                            data-blink-class="balance-info-blink"
-                        ></span>
-                    </span>
-                </li>
-                <li>
-                    <span class="head-ticker__title">
-                        <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.high %}&nbsp;
-                    </span>
-                    <span class="head-ticker__value">
-                      <span class="bitex-model"
-                            data-model-key-list="formatted_BLINK_{{site.symbol}}_HIGH_PX"
-                            data-model-formula="formatted_BLINK_{{site.symbol}}_HIGH_PX"
-                            data-blink-class="balance-info-blink"
-                        ></span>
-                    </span>
-                </li>
-                <li>
-                    <span class="head-ticker__title">
-                        <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.low %}&nbsp;
-                    </span>
-                    <span class="head-ticker__value">
-                      <span class="bitex-model"
-                            data-model-key-list="formatted_BLINK_{{site.symbol}}_LOW_PX"
-                            data-model-formula="formatted_BLINK_{{site.symbol}}_LOW_PX"
-                            data-blink-class="balance-info-blink"
-                        ></span>
-                    </span>
-                </li>
-                <li>
-                    <span class="head-ticker__title">
-                        <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.volume %}&nbsp;
-                    </span>
-                    <span class="head-ticker__value">
-                      <span class="bitex-model"
-                            data-model-key-list="formatted_BLINK_{{site.symbol}}_VOLUME"
-                            data-model-formula="formatted_BLINK_{{site.symbol}}_VOLUME"
-                            data-blink-class="balance-info-blink"
-                        ></span>
-                    </span>
-                </li>
-            </ul>
-            <!-- /.head-ticker -->
 
+        <div class="container">
+            <div class="head-slide-fade">
+                <!-- .head-ticker -->
+                <ul class="head-ticker bitex-model" data-model-key="IsProTrader" style="display: none" data-model-action="show_element">
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-info-sign"></i> BITCOIN&nbsp;
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.last %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_BTCBRL_LAST_PX"
+                                data-model-formula="formatted_BLINK_BTCBRL_LAST_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.high %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_BTCBRL_HIGH_PX"
+                                data-model-formula="formatted_BLINK_BTCBRL_HIGH_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.low %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_BTCBRL_LOW_PX"
+                                data-model-formula="formatted_BLINK_BTCBRL_LOW_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.volume %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_BTCBRL_VOLUME"
+                                data-model-formula="formatted_BLINK_BTCBRL_VOLUME"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                </ul>
+                <!-- /.head-ticker -->
+            </div>
+            <div class="head-slide-fade">
+                <!-- .head-ticker -->
+                <ul class="head-ticker bitex-model" data-model-key="IsProTrader" style="display: none" data-model-action="show_element">
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-info-sign"></i> LITECOIN&nbsp;
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.last %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_LTCBRL_LAST_PX"
+                                data-model-formula="formatted_BLINK_LTCBRL_LAST_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.high %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_LTCBRL_HIGH_PX"
+                                data-model-formula="formatted_BLINK_LTCBRL_HIGH_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.low %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_LTCBRL_LOW_PX"
+                                data-model-formula="formatted_BLINK_LTCBRL_LOW_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.volume %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_LTCBRL_VOLUME"
+                                data-model-formula="formatted_BLINK_LTCBRL_VOLUME"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                </ul>
+                <!-- /.head-ticker -->
+            </div>
+            <div class="head-slide-fade">
+                <!-- .head-ticker -->
+                <ul class="head-ticker bitex-model" data-model-key="IsProTrader" style="display: none" data-model-action="show_element">
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-info-sign"></i> NICKEL&nbsp;
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.last %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_NKLBRL_LAST_PX"
+                                data-model-formula="formatted_BLINK_NKLBRL_LAST_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.high %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_NKLBRL_HIGH_PX"
+                                data-model-formula="formatted_BLINK_NKLBRL_HIGH_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.low %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_NKLBRL_LOW_PX"
+                                data-model-formula="formatted_BLINK_NKLBRL_LOW_PX"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="head-ticker__title">
+                            <i class="glyphicon glyphicon-triangle-right"></i> {% t views.toolbar.volume %}&nbsp;
+                        </span>
+                        <span class="head-ticker__value">
+                          <span class="bitex-model"
+                                data-model-key-list="formatted_BLINK_NKLBRL_VOLUME"
+                                data-model-formula="formatted_BLINK_NKLBRL_VOLUME"
+                                data-blink-class="balance-info-blink"
+                            ></span>
+                        </span>
+                    </li>
+                </ul>
+                <!-- /.head-ticker -->
+            </div>
             <ul class="head-top-nav navbar-right pull-right">
               <!-- .head-market -->
               <li>
