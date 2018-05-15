@@ -91,3 +91,22 @@
 .flag-icon-ro.flag-icon-squared {
   background-image: url(../flags/1x1/ro.svg);
 }
+
+.flag-icon-it {
+  background-image: url(../flags/4x3/it.svg);
+}
+.flag-icon-it.flag-icon-squared {
+  background-image: url(../flags/1x1/it.svg);
+}
+.flag-icon-fr {
+  background-image: url(../flags/4x3/fr.svg);
+}
+.flag-icon-fr.flag-icon-squared {
+  background-image: url(../flags/1x1/fr.svg);
+}
+.flag-icon-de {
+  background-image: url(../flags/4x3/de.svg);
+}
+.flag-icon-de.flag-icon-squared {
+  background-image: url(../flags/1x1/de.svg);
+}

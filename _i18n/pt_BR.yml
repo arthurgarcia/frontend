@@ -83,9 +83,9 @@ views:
         icon: ico-liquidity
         description: Donec ac tincidunt enim, quis porttitor massa. Sed vulputate ex at quam venenatis, non facilisis justo vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam nisl, congue vehicula maximus eget, tempor nec ipsum. Vestibulum feugiat consequat lacus et congue. Phasellus eu felis vel dui cursus pharetra quis non lectus. Curabitur porta ultrices magna sit amet ultrices. Nam cursus lorem mollis arcu dignissim congue. Praesent vitae venenatis lorem, sit amet efficitur ipsum.
       phrase4:
-        title: Membro da rede BLINKTRADE
+        title: Preparada para o Comércio
         icon: ico-decentralized
-        description: Somos membros da rede global da <a href="https://blinktrade.com" target="_BLANK">BLINKTRADE</a>, rede que integra <a href="https://foxbit.com.br/" target="_BLANK">FOXBIT</a> no Brasil, <a href="https://surbitcoin.com/" target="_BLANK">SurBitcoin</a> na Venezuela, <a href="https://chilebit.net/" target="_BLANK">ChileBit.NET</a> no Chile, <a href="https://urdubit.com/" target="_BLANK">UrduBit</a> no Paquistão e <a href="https://vbtc.vn/" target="_BLANK">VBTC</a> no Vietnã junto com outras empresas, formadores de mercado, empresas de remessa de valores, processadoras de pagamento. Operando conosco, você terá acesso a toda rede mundial de exchanges com suporte local.
+        description: Nossa rede não possui qualquer vínculo ou associação com a <a href="https://blinktrade.com" target="_BLANK">BLINKTRADE</a>, desenvolvedora da tecnologia open source que conta com alguns cases de sucesso espalhados pelo mundo. Nosso projeto tem como objetivo a aceitação em larga escala pelos comerciantes, facilitando ainda mais a negociação de produtos e serviços por bitcoin e cripto ativos.
     orderbook:
       title: Livro de ofertas 
     signup:

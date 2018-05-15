@@ -84,9 +84,9 @@ views:
         icon: ico-liquidity
         description: Donec ac tincidunt enim, quis porttitor massa. Sed vulputate ex at quam venenatis, non facilisis justo vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam nisl, congue vehicula maximus eget, tempor nec ipsum. Vestibulum feugiat consequat lacus et congue. Phasellus eu felis vel dui cursus pharetra quis non lectus. Curabitur porta ultrices magna sit amet ultrices. Nam cursus lorem mollis arcu dignissim congue. Praesent vitae venenatis lorem, sit amet efficitur ipsum.
       phrase4:
-        title: Thành viên của BLINKTRADE
+        title: Merchant Ready
         icon: ico-decentralized
-        description: Chúng tôi là một thành viên của [mạng BlinkTrade] toàn cầu, bao gồm <a href="https://foxbit.com.br" target="_BLANK">FoxBit</a> tại Brazil, <a href="https://surbitcoin.com" target="_BLANK">SurBitcoin</a> tại Venezuela, <a href="https://chilebit.net/" target="_BLANK">ChileBit.NET</a> tại Chile, <a href="https://urdubit.com/" target="_BLANK">UrduBit</a> tại Pakistan và <a href="https://vbtc.vn/" target="_BLANK">VBTC</a> tại Việt Nam, cùng các công ty, nhà tạo lập thị trường và hệ thống xử lý thanh toán khác. Thông qua nền tảng của chúng tôi, bạn sẽ có thể truy cập vào mạng lưới sàn giao dịch toàn cầu này bằng bất kỳ ngôn ngữ nào bạn sử dụng.
+        description: Our network has no link or association with <a href="https://blinktrade.com" target="_BLANK">BLINKTRADE</a>, developer of open source technology that has some success cases around the world. Our project aims at large-scale acceptance by merchants, further facilitating the negotiation of products and services by bitcoin and crypto assets.
     orderbook:
       title: Live Order Book
     signup:
