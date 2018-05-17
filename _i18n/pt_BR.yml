@@ -101,7 +101,7 @@ views:
     version: Versão
 
   toolbar:
-    faq: Ajuda
+    faq: Perguntas frequentes
     trading: Negociações
     market: Mercado
     signin: Login
