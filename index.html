@@ -568,17 +568,6 @@ load_application:       True
                                   <i class="fa fa-upload"></i> {% t views.sidebar.withdraw %}
                               </a>
                           </li>
-
-                          <li role="presentation" id="menu-services" class="bitex-model bitex-display-if-non-broker"  style="display: none" data-model-key="HasServices" data-model-action="show_element">
-                              <a href="#" data-switch-view="services">
-                                  <i class="fa fa-upload"></i> {% t views.sidebar.services %}
-                              </a>
-                          </li>
-                          <li role="presentation" id="menu-algotrading" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
-                              <a href="#" data-switch-view="algotrading">
-                                  <i class="glyphicon glyphicon-cog"></i> {% t views.sidebar.algotrading %}
-                              </a>
-                          </li>
                           <li role="presentation" id="menu-ledger" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
                               <a href="#" data-switch-view="ledger">
                                   <i class="glyphicon glyphicon-th-list"></i> {% t views.sidebar.ledger %}
@@ -587,6 +576,16 @@ load_application:       True
                           <li role="presentation" id="menu-market">
                               <a href="#" data-switch-view="market">
                                   <i class="glyphicon glyphicon-stats"></i> {% t views.toolbar.market %}
+                              </a>
+                          </li>
+                          <li role="presentation" id="menu-services" class="bitex-model bitex-display-if-non-broker" style="display: none" data-model-key="HasServices" data-model-action="show_element">
+                              <a href="#" data-switch-view="services">
+                                  <i class="fa fa-upload"></i> {% t views.sidebar.services %}
+                              </a>
+                          </li>
+                          <li role="presentation" id="menu-algotrading" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
+                              <a href="#" data-switch-view="algotrading">
+                                  <i class="glyphicon glyphicon-cog"></i> {% t views.sidebar.algotrading %}
                               </a>
                           </li>
                           <li role="presentation" id="menu-api" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
