@@ -225,6 +225,9 @@ views:
     title: Các khoá API
     new_api_key: Khoá API Mới
 
+  social_bonus:
+    title: Social Bonus
+
   settings:
     title: Cài Đặt
 

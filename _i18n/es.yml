@@ -224,6 +224,9 @@ views:
     title: API Keys
     new_api_key: Nuevo API Key
 
+  social_bonus:
+    title: Social Bonus
+
   settings:
     title: Configuraciones
 

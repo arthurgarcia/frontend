@@ -225,6 +225,9 @@ views:
     title: API Keys
     new_api_key: New API Key
 
+  social_bonus:
+    title: Social Bonus
+
   settings:
     title: 设置
 

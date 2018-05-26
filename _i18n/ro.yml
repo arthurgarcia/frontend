@@ -221,6 +221,9 @@ views:
     title: API Keys
     new_api_key: New API Key
 
+  social_bonus:
+    title: Social Bonus
+
   algotrading:
     title: Tranzacționarea algoritmică
 
