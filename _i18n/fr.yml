@@ -274,6 +274,7 @@ views:
     line_of_credit: Line of credit
     support: Suggestions & Support
     api: API
+    social_bonus: Social Bonus
     logout: Logout
     algotrading: Algo Trading
     history: Orders history

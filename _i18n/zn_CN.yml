@@ -275,6 +275,7 @@ views:
     line_of_credit: 信用额度
     support: 建议和问题
     api: API
+    social_bonus: Social Bonus
     logout: 退出
     algotrading: 程序自动交易
     history: 订单历史
