@@ -358,7 +358,10 @@ load_application:       True
 
                         <div class="form-group" style="display: none;">
                           <label for="id_signup_broker">{% t views.signup.broker %}</label>
-                          <select id="id_signup_broker" class="form-control" name="broker"></select>
+                          <select id="id_signup_broker" class="form-control" name="broker">
+                             <option value="4">FoxBit</option>
+                             <option value="5" selected>TukExchange</option>
+                          </select>
                         </div>
 
                         <div id="signup_broker_details"></div>
@@ -454,7 +457,7 @@ load_application:       True
     <!-- /.page__body -->
   </div>
   <!-- /#set_new_password -->
-  <div class="page bitex-display-if-logged">
+  <div class="page">
 
     <div class="alert-box bitex-display-if-logged">
         <div class="alert alert-info | bitex-model" style="display: none" data-model-key="IsMissingVerification" data-model-action="show_element">
@@ -508,9 +511,11 @@ load_application:       True
                                         bitex-view-settings
                                         bitex-view-algotrading
                                         bitex-view-api
-                                        bitex-view-social_bonus
                                         bitex-view-my_broker
-                                        bitex-view-verification">
+                                        bitex-view-verification
+                                        bitex-view-partners
+                                        bitex-view-purseio
+                                        bitex-view-social_bonus">
 
               <!-- .sidebar-box -->
               <div class="sidebar-box">
@@ -543,12 +548,12 @@ load_application:       True
                                   <i class="glyphicon glyphicon-random"></i> {% t views.sidebar.trading %}
                               </a>
                           </li>
-                          <li role="presentation" id="menu-offerbook" class="bitex-model" style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
+                          <li role="presentation" id="menu-offerbook" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
                               <a href="#" data-switch-view="offerbook">
                                   <i class="glyphicon glyphicon-book"></i> {% t views.sidebar.offerbook %}
                               </a>
                           </li>
-                          <li role="presentation" id="menu-partners" style="display: none">
+                          <li role="presentation" id="menu-partners"class="bitex-model"  style="display: none" data-model-key="HasServices" data-model-action="show_element">
                               <a href="#" data-switch-view="partners">
                                   <i class="glyphicon glyphicon-shopping-cart"></i> {% t views.sidebar.partners %}
                               </a>
@@ -578,7 +583,7 @@ load_application:       True
                                   <i class="glyphicon glyphicon-stats"></i> {% t views.toolbar.market %}
                               </a>
                           </li>
-                          <li role="presentation" id="menu-services" class="bitex-model bitex-display-if-non-broker" style="display: none" data-model-key="HasServices" data-model-action="show_element">
+                          <li role="presentation" id="menu-services" class="bitex-model bitex-display-if-non-broker"  style="display: none" data-model-key="HasServices" data-model-action="show_element">
                               <a href="#" data-switch-view="services">
                                   <i class="fa fa-upload"></i> {% t views.sidebar.services %}
                               </a>
@@ -588,21 +593,21 @@ load_application:       True
                                   <i class="glyphicon glyphicon-cog"></i> {% t views.sidebar.algotrading %}
                               </a>
                           </li>
-                          <li role="presentation" id="menu-api" class="bitex-model"  style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
-                              <a href="#" data-switch-view="api">
-                                  <i class="glyphicon glyphicon-globe"></i> {% t views.sidebar.api %}
-                              </a>
+                          <li role="presentation" id="menu-api" class="bitex-model" style="display: none" data-model-key="IsProTrader" data-model-action="show_element">
+                             <a href="#" data-switch-view="api">
+                                  <i class="glyphicon glyphicon-globe"></i> {% t views.sidebar.api %} 
+                             </a>
                           </li>
-                          <li role="presentation" id="menu-social" style="display: none;">
+                          <li role="presentation" id="menu-social_bonus" style="display: none;">
                              <a href="#" data-switch-view="social_bonus">
                                   <i class="glyphicon glyphicon-gift"></i> {% t views.sidebar.social_bonus %} 
                              </a>
-                          </li>                      
-                          <li role="presentation" id="menu-verification">
+                          </li>
+                          <li id="menu-verification">
                               <a href="verification" data-switch-view="verification">
                                   <i class="glyphicon glyphicon-check"></i> {% t views.sidebar.verification %}
                               </a>
-                          </li>                         
+                          </li>
                           <li>
                               <a href="javascript:location.reload()">
                                   <i class="glyphicon glyphicon-off"></i> {% t views.sidebar.logout %}
@@ -742,6 +747,7 @@ load_application:       True
 
                   <!-- .page__body -->
                   <div class="page__body bitex-view-content">
+                      <div id="social_bonus_widget"></div>
                   </div>
                   <!-- /.page__body -->
                 </div>
@@ -1122,11 +1128,12 @@ load_application:       True
                               bitex-view-settings
                               bitex-view-algotrading
                               bitex-view-api
+                              bitex-view-my_broker
+                              bitex-view-verification
                               bitex-view-partners
                               bitex-view-purseio
-                              bitex-view-my_broker
-                              bitex-view-social_bonus
-                              bitex-view-verification">
+                              bitex-view-social_bonus>
+
               <!-- .sidebar-box -->
               <div class="sidebar-box">
                   <h5 class="sidebar-box__title">INTERNATIONAL RATES</h5>
@@ -1163,6 +1170,7 @@ load_application:       True
       <!-- /.page__head -->
 
       {% if site.trading_view %}
+<!--
         <div id="market_trading_view" style="height: 600px;">
           <script type="text/javascript" src="https://s3.amazonaws.com/tradingview/tv.js"></script>
           <script type="text/javascript">
@@ -1184,6 +1192,7 @@ load_application:       True
             });
           </script>
         </div>
+-->
       {% endif %}
       <!-- .page__body -->
       <div class="page__body bitex-view-content">
