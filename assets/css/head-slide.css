@@ -1,7 +1,7 @@
 /* Fading animation */
 .head-slide-fade {
-  -webkit-animation: fade1 2s linear 0s, fade2 2s linear 6s;
-  animation: fade1 2s linear 0s, fade2 2s linear 6s;
+  -webkit-animation: fade1 2s linear 0s, fade2 2s linear 13s;
+  animation: fade1 2s linear 0s, fade2 2s linear 13s;
 }
 @-webkit-keyframes fade1 {
   from {opacity: 0} 
