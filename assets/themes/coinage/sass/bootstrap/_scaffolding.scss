@@ -10,7 +10,9 @@
 // http://getbootstrap.com/getting-started/#third-box-sizing
 * {
   @include box-sizing(border-box);
+  border-radius: 0px!important;
 }
+// added by tuk square all, border-radius off
 *:before,
 *:after {
   @include box-sizing(border-box);

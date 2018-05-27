@@ -592,17 +592,17 @@ load_application:       True
                               <a href="#" data-switch-view="api">
                                   <i class="glyphicon glyphicon-globe"></i> {% t views.sidebar.api %}
                               </a>
-                          </li>                          
-                          <li id="verification_menu_id">
-                              <a href="verification" data-switch-view="verification">
-                                  <i class="glyphicon glyphicon-check"></i> {% t views.sidebar.verification %}
-                              </a>
                           </li>
-                          <li id="social_bonus_menu_id" style="display: none;">
+                          <li role="presentation" id="menu-social" style="display: none;">
                              <a href="#" data-switch-view="social_bonus">
                                   <i class="glyphicon glyphicon-gift"></i> {% t views.sidebar.social_bonus %} 
                              </a>
-                          </li>                          
+                          </li>                      
+                          <li role="presentation" id="menu-verification">
+                              <a href="verification" data-switch-view="verification">
+                                  <i class="glyphicon glyphicon-check"></i> {% t views.sidebar.verification %}
+                              </a>
+                          </li>                         
                           <li>
                               <a href="javascript:location.reload()">
                                   <i class="glyphicon glyphicon-off"></i> {% t views.sidebar.logout %}
