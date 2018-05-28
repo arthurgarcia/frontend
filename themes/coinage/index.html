@@ -690,7 +690,7 @@ load_application:       True
 
                         <!-- .profile-two-factor__foot -->
                         <div class="profile-two-factor__foot">
-                            <a data-switch-view="twofactor" id="id_btn_enable_two_factor" class="btn btn-success profile-two-factor__btn">{% t views.profile.two_factor_auth_section.enable %}</a>
+                            <a data-switch-view="twofactor" id="id_btn_enable_two_factor" class="btn btn-primary profile-two-factor__btn">{% t views.profile.two_factor_auth_section.enable %}</a>
                             <button id="id_btn_disable_two_factor" class="btn btn-danger profile-two-factor__btn">{% t views.profile.two_factor_auth_section.disable %}</button>
                         </div>
                         <!-- /.profile-two-factor__foot -->
@@ -943,12 +943,13 @@ load_application:       True
                       <h1 class="page__title h2 bitex-view-title page__title-float">
                           <i class="glyphicon glyphicon-plus"></i> {% t views.deposit.title %}
                       </h1>
-                      <div id="id_deposit_button_group" class="row-fluid text-right" style="" ></div>
                   </header>
                   <!-- /.page__head -->
 
                   <!-- .page__body -->
                   <div class="page__body bitex-view-content">
+                    <div id="id_deposit_button_group" class="row-fluid text-right" style="" ></div>
+
                     <div id="id_deposit_balances_container"></div>
 
                     <div id="id_deposit_list"></div>
@@ -964,12 +965,13 @@ load_application:       True
                       <h1 class="page__title h2 bitex-view-title page__title-float">
                           <i class="glyphicon glyphicon-minus"></i> {% t views.withdraw.title %}
                       </h1>
-                      <div id="id_withdraw_button_group" class="row-fluid text-right" style="" ></div>
                   </header>
                   <!-- /.page__head -->
 
                   <!-- .page__body -->
                   <div class="page__body bitex-view-content">
+                    <div id="id_withdraw_button_group" class="row-fluid text-right" style="" ></div>
+
                     <div id="id_user_balances_well"></div>
 
                     <div id="id_withdraw_list"></div>
