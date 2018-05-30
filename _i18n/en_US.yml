@@ -54,12 +54,16 @@ exchanges:
   unocoin:
     title: Unocoin | India's Bitcoin Wallet
     description: Unocoin is India's most popular bitcoin wallet. We make it super easy to securely buy, use and accept bitcoin, following KYC-AML guidelines.
-    keywords: bitcoin, buy bitcoin, sell bitcoin, buy bitcoin india, sell bitcoin india, bitcoin india, bitcoin inr, btc inr, bitcoin wallet india, store bitcoin india, buy bitcoin inr, sell bitcoin inr, send bitcoin, send bitcoin india, receive bitcoin, receive bitcoin india, bitcoin price, btc to inr, btc price in inr, bitcoin exchange
     lead: Unocoin is india's most popular bitcoin wallet
   bitcambio:
     title: Bitcambio - Bitcoin exchange house
     description: Bitcambio allows you to securily buy and sell Bitcoins in Brazil. 
     keywords: bitcoin, comprar bitcoin, btc,bitcambio,cambio,vender bitcoin, bitcoin brasil
+    lead: Buy and sell bitcoin in Brazil
+  tuk:
+    title: Exchange - Buy or sell bitcoins in Brazil
+    description: Exchange allows you to securily buy and sell Bitcoins in Brazil. 
+    keywords: bitcoin, buy bitcoin, sell bitcoin, buy bitcoin brazil, sell bitcoin brazil, bitcoin brazil, bitcoin brl, btc brl, bitcoin wallet brazil, store bitcoin brazil, buy bitcoin brl, sell bitcoin brl, send bitcoin, send bitcoin brazil, receive bitcoin, receive bitcoin brazil, bitcoin price, btc to brl, btc price in brl, bitcoin exchange
     lead: Buy and sell bitcoin in Brazil
 views:
   landing:
