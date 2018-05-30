@@ -227,6 +227,7 @@ views:
 
   social_bonus:
     title: Social Bonus
+    disclaimer: There is no guarantee of reward, the credit depends on the balance in the bonus account.
 
   settings:
     title: Cài Đặt
