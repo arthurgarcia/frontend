@@ -225,7 +225,8 @@ views:
     new_api_key: Nova API Key
 
   social_bonus:
-    title: Bônus de Redes Sociais
+    title: Bônus Social
+    disclaimer: 
 
   settings:
     title: Configurações

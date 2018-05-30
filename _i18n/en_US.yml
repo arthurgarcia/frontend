@@ -61,11 +61,6 @@ exchanges:
     description: Bitcambio allows you to securily buy and sell Bitcoins in Brazil. 
     keywords: bitcoin, comprar bitcoin, btc,bitcambio,cambio,vender bitcoin, bitcoin brasil
     lead: Buy and sell bitcoin in Brazil
-  tuk:
-    title: TukExchange - Buy or sell bitcoins in Brazil
-    description: Compre e venda bitcoins no Brasil de maneira segura através da TukExchange. Com a TukExchange você pode começar a comprar e vender bitcoins hoje. O processo de registro dura menos de um minuto.
-    keywords: Buy and sell bitcoin in Brazil, bitcoin exchange in Brazil, sell bitcoins in Brazil, buy bitcoins in Brazil, Bitcoin exchange in Brazil
-    lead: Buy or sell bitcoins in Brazil    
 views:
   landing:
     about:
@@ -83,9 +78,9 @@ views:
         icon: ico-liquidity
         description: Donec ac tincidunt enim, quis porttitor massa. Sed vulputate ex at quam venenatis, non facilisis justo vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam nisl, congue vehicula maximus eget, tempor nec ipsum. Vestibulum feugiat consequat lacus et congue. Phasellus eu felis vel dui cursus pharetra quis non lectus. Curabitur porta ultrices magna sit amet ultrices. Nam cursus lorem mollis arcu dignissim congue. Praesent vitae venenatis lorem, sit amet efficitur ipsum.
       phrase4:
-        title: Merchant Ready
+        title: Member of BLINKTRADE
         icon: ico-decentralized
-        description: Our network has no link or association with <a href="https://blinktrade.com" target="_BLANK">BLINKTRADE</a>, developer of open source technology that has some success cases around the world. Our project aims at large-scale acceptance by merchants, further facilitating the negotiation of products and services by bitcoin and crypto assets.
+        description: We are a member of the global <a href="https://blinktrade.com" target="_BLANK">BlinkTrade network</a>, that includes <a href="https://foxbit.com.br" target="_BLANK">FoxBit</a> in Brazil, <a href="https://surbitcoin.com/themes/coinage/" target="_BLANK">SurBitcoin</a> in Venezuela, <a href="https://chilebit.net/" target="_BLANK">ChileBit.NET</a> in Chile, <a href="https://urdubit.com/" target="_BLANK">UrduBit</a> in Pakistan and <a href="https://vbtc.vn/" target="_BLANK">VBTC</a> in Vietnam among other companies, market makers, remittance agencies and payment processors. Through our platform you will have access to this global network of exchanges and will be able to navigate all of them in the language of your choice
     orderbook:
       title: Live Order Book
     signup:
@@ -226,6 +221,7 @@ views:
 
   social_bonus:
     title: Social Bonus
+    disclaimer: There is no guarantee of reward, the credit depends on the balance in the bonus account.
 
   settings:
     title: Settings
@@ -238,7 +234,7 @@ views:
 
   alerts:
     verification: You have not submitted your documents. Please verify your account.
-    enable_two_factor: You can increase the security of your account by enabling authentication in two steps
+    enable_two_factor: You can increase the security of your account by enabling authentication in two steps.
     frozen_account: Your account has been frozen by the administrator, please contact support.
 
   line_of_credit:
@@ -274,7 +270,7 @@ views:
     line_of_credit: Line of credit
     support: Suggestions & Support
     api: API
-    social_bonus: Social Bonus    
+    social_bonus: Social Bonus
     logout: Logout
     algotrading: Algo Trading
     history: Orders history
