@@ -881,10 +881,15 @@ $hr-border:                   $gray-lighter !default;
 
 
 //Custom Classes Override
+.navbar {
+  background-color: #eaeff2
+}
 .home-img{
   -webkit-filter: hue-rotate(60deg) contrast(1) brightness(0.5);
+}
+.hexagon-img {
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);	
 }
 .head-top{
     background: $gray-lighter !important;
