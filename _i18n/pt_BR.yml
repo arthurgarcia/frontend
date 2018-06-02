@@ -206,7 +206,7 @@ views:
     title: Pedidos de retiradas 
 
   withdraw_methods:
-    title: Withdraw methods
+    title: Métodos de retiradas
 
   deposit:
     title: Depósitos
