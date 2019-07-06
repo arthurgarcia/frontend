@@ -94,3 +94,4 @@ sass:
   sass_dir: assets/themes/coinage/sass
   style: compressed
 
+plugins: ["jekyll-multiple-languages-plugin", "jekyll-coffeescript"]
