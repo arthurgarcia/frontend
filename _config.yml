@@ -1,0 +1,96 @@
+﻿# Site settings
+url: "https://exchange.tuk.com.br"
+author: "BlinkTrade"
+baseurl: ""
+deploy_version: "HEAD"
+
+exchange: "tuk"
+exchange_logo: "tuk"
+
+custom_css: "darkblue"
+
+#twitter_widget_id: "717629137503043584"
+#twitter_widget_name: "foxbitstatus"
+#twitter_widget_theme: "light"
+#twitter_widget_link_color: "#E8683E"
+
+default_country_code: "BR"
+blinktrade_broker_id: 1  # 5 is the id for the demo backend. Don't change that if you don't understand what you doing.
+required_level_to_be_a_pro_trader: 0
+
+#host: 0.0.0.0
+blinktrade_backend_api: "ws-exchange.tuk.com.br"
+#google_analytics_id: "UA-53856711-1"
+#zopim_key: "2SSNIzvxy8fBypKoZJ0pI43tUoNCv8os"
+
+#embedded_chat_id : 4296  # embedded-chat.com
+
+#trading_view: 'FOXBIT:BTCBRL'
+
+# Build settings
+markdown: kramdown
+#            ['NKL -> BTC -> USD',  'USD', 'BLINK_NKLBTC_BEST_BID / 100000000 * US_BTCUSD_BEST_ASK', 'BLINK_NKLBTC_BEST_ASK / 100000000 * US_BTCUSD_BEST_BID' ],
+#            ['NKL -> BTC -> BRL',  'BRL', 'BLINK_NKLBTC_BEST_BID / 100000000 * BR_BTCBRL_BEST_ASK', 'BLINK_NKLBTC_BEST_ASK / 100000000 * BR_BTCBRL_BEST_BID' ]
+remittance_box: "{
+    'USD':[
+            ['USA',                'USD', 'US_BTCUSD_BEST_BID / 100000000', 'US_BTCUSD_BEST_ASK / 100000000'  ],
+            ['BRAZIL',             'BRL', 'BR_BTCBRL_BEST_BID / 100000000', 'BR_BTCBRL_BEST_ASK / 100000000'  ],
+            ['CHINA',              'CNY', 'CN_BTCCNY_BEST_BID / 100000000', 'CN_BTCCNY_BEST_ASK / 100000000'  ],
+            ['EUROPE',             'EUR', 'EU_BTCEUR_BEST_BID / 100000000', 'EU_BTCEUR_BEST_ASK / 100000000'  ],
+            ['UK',                 'GBP', 'GB_BTCGBP_BEST_BID / 100000000', 'GB_BTCGBP_BEST_ASK / 100000000'  ]
+     ],
+    'BRL':[
+            ['-> Dólar Bitcoin',   'BRL', 'BLINK_BTCBRL_BEST_BID / US_BTCUSD_BEST_ASK', 'BLINK_BTCBRL_BEST_ASK / US_BTCUSD_BEST_BID'],
+            ['Dólar Comercial',    'BRL', 'UOL_USDBRL_BEST_BID / 100000000', 'UOL_USDBRL_BEST_ASK / 100000000'],
+            ['Dólar Turismo',      'BRL', 'UOL_USDBRT_BEST_BID / 100000000', 'UOL_USDBRT_BEST_ASK / 100000000'],
+            ['-> Euro Bitcoin',    'BRL', 'BLINK_BTCBRL_BEST_BID / EU_BTCEUR_BEST_ASK', 'BLINK_BTCBRL_BEST_ASK / EU_BTCEUR_BEST_BID'],
+            ['Euro',               'BRL', 'UOL_EURBRL_BEST_BID / 100000000', 'UOL_EURBRL_BEST_ASK / 100000000'],
+            ['USA',                'USD', 'US_BTCUSD_BEST_BID / 100000000', 'US_BTCUSD_BEST_ASK / 100000000'  ],
+            ['BRAZIL',             'BRL', 'BR_BTCBRL_BEST_BID / 100000000', 'BR_BTCBRL_BEST_ASK / 100000000'  ],
+            ['CHINA',              'CNY', 'CN_BTCCNY_BEST_BID / 100000000', 'CN_BTCCNY_BEST_ASK / 100000000'  ],
+            ['EUROPE',             'EUR', 'EU_BTCEUR_BEST_BID / 100000000', 'EU_BTCEUR_BEST_ASK / 100000000'  ],
+            ['UK',                 'GBP', 'GB_BTCGBP_BEST_BID / 100000000', 'GB_BTCGBP_BEST_ASK / 100000000'  ]
+     ],
+    'BTC':[
+            ['USA',                'USD', 'US_BTCUSD_BEST_BID / 100000000', 'US_BTCUSD_BEST_ASK / 100000000'  ],
+            ['BRAZIL',             'BRL', 'BR_BTCBRL_BEST_BID / 100000000', 'BR_BTCBRL_BEST_ASK / 100000000'  ],
+            ['CHINA',              'CNY', 'CN_BTCCNY_BEST_BID / 100000000', 'CN_BTCCNY_BEST_ASK / 100000000'  ],
+            ['EUROPE',             'EUR', 'EU_BTCEUR_BEST_BID / 100000000', 'EU_BTCEUR_BEST_ASK / 100000000'  ],
+            ['UK',                 'GBP', 'GB_BTCGBP_BEST_BID / 100000000', 'GB_BTCGBP_BEST_ASK / 100000000'  ]
+     ]
+}"
+
+symbol: "BTCBRL"
+
+phrases: [phrase1, phrase2, phrase4]
+
+languages: ["pt_BR", "en_US", "es", "fr", "it", "de", "zn_CN"]
+
+exclude:     [ "jsdev", "LICENSE", "README.md", "config.rb", "deploy.sh", "build_javascript.sh", "node_modules", "gulpfile.js", "index.html", "themes/ander" ]
+source:      .
+destination: ./_site
+plugins_dir: ./_plugins
+
+plugins: 
+ - jekyll-multiple-languages-plugin
+ - jekyll-coffeescript
+
+#paginate:    5
+#paginate_path: "post/page:num"
+#permalink:     /post/:title/
+
+title: ""
+description: ""
+blog: https://blog.exchange.tuk.com.br
+chart: https://exchange.tuk.com.br/chart.html
+facebook: https://www.facebook.com/tukexchange
+instagram: https://www.instagram.com/tukexchange
+linkedin: https://www.linkedin.com/tukexchange
+twitter: https://twitter.com/tukexchange
+#gplus: https://plus.google.com/+TukExchange/posts
+youtube: https://www.youtube.com/tukexchange
+
+sass:
+  sass_dir: assets/themes/coinage/sass
+  style: compressed
+
