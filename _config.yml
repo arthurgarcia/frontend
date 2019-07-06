@@ -1,8 +1,8 @@
-# Site settings
+﻿# Site settings
 url: "https://exchange.tuk.com.br"
 author: "BlinkTrade"
 baseurl: ""
-deploy_version: "9ed365e"
+deploy_version: "HEAD"
 
 exchange: "tuk"
 exchange_logo: "tuk"
