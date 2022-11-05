@@ -21,7 +21,7 @@
   "homepage": "https://github.com/blinktrade/frontend",
   "devDependencies": {
     "git-rev-sync": "^1.4.0",
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.2",
     "gulp-exec": "^2.1.2",
     "gulp-gh-pages": "git+https://github.com/tekd/gulp-gh-pages.git",
     "gulp-prompt": "^0.1.2",
